@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MapleTracker</title>
+  <link rel="shortcut icon" type="image/png" href="http://i.imgur.com/wCbqdiQ.png"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Amaranth:700|Titillium+Web:400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+  <h1>Maple<span class="stroke">Tracker</span></h1>
+  <div class="section">
+    <div style="text-align: center;">Current Server Time</div>
+    <div id="currentDate">Loading...</div>
+    <div id="currentTime"></div>
+    <div style="clear:both;"></div>
+  </div>
+  <hr>
+  <div class="section">
+    <h2>DAILIES</h2>
+    <div id="dailiesTimer"></div>
+    <div style="clear:both;"></div>
+    <ul id="listDailies">
+      
+    </ul>
+    <div class="form">
+      <input type="text" placeholder="Daily Name"></input>
+      <button>ADD</button>
+    </div>
+  </div>
+  <hr>
+  <div class="section">
+    <h2>WEEKLIES</h2>
+    <div id="weekliesTimer"></div>
+    <div style="clear:both;"></div>
+    <ul id="listWeeklies">
+      
+    </ul>
+    <div class="form">
+      <input type="text" placeholder="Weekly Name"></input>
+      <button>ADD</button>
+    </div>
+    <a href="#" id="weeklyReset">Change Reset To Bosses</a>
+  </div>
+  <!--
+  <hr>
+  <div class="section">
+    <h2>Todo List</h2>
+    <div style="clear:both;"></div>
+    <ul id="listTodo">
+      
+    </ul>
+  </div>
+  -->
+  <hr>
+  <div class="section footer">
+    <em>MapleStory GMS server uses UTC timezone.<br>No need to refresh this page as it automatically updates the times.<br>Click a task to complete it.<br>Right click a task to delete it.</em>
+  </div>
+</div>
+</body>
+</html>
